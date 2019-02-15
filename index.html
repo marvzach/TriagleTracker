@@ -2,11 +2,31 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Triangle Tracker</title>
+    <script src="js/triangle.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
   </head>
   <body>
 <div class="tri">
   <h1>Triangle Tracker</h1>
-  
+  <div class="triform">
+    <form class="tra">
+      Side 1<input type="text" name="firstvalue" class="inp" placeholder="Enter 1st Number" id="one">
+      Side 2<input type="text" name="secondvalue" class="inp" placeholder="Enter 2nd Number" id="two">
+      Side 3<input type="text" name="thirdvalue" class="inp" placeholder="Enter 3rd Number" id="three">
+      <!-- <button type="button" name="button" class="inpt">Check</button> -->
+        <button onclick="check()" class="inpt">CHECK</button>
+      <button type="reset" value="Reset" class="inpt">Reset</button>
+      <P id="Result"></P>
+    </form>
+    <div class="answer">
+      56546546
+
+    </div>
+  </div>
+</div>
+
+
   </body>
 </html>

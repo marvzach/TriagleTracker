@@ -1,0 +1,60 @@
+body{
+  background-image: url('../images/bg2.jpg');
+  background-size: cover;
+  height: 480px;
+  width: 700px;
+  font-family: 'Inconsolata', monospace;
+}
+h1{
+  margin-left: 350px;
+  text-align: center;
+}
+.triform{
+  background-color: blue;
+  height: 420px;
+  width: 300px;
+  margin-left: 370px;
+  margin-right: 50px;
+  border-radius: 10px;
+  font-family: 'Inconsolata', monospace;
+  float: left;
+
+}
+.tra{
+  padding-left: 40px;
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: 'Inconsolata', monospace;
+
+
+}
+.inp{
+  margin: 20px;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: coral;
+
+
+}
+.inpt{
+    margin: 10px;
+    background-image: url('../images/bg.jpg');
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100px;
+    font-family: 'Inconsolata', monospace;
+    float: left;
+
+}
+.answer{
+  background-color: blue;
+  height: 420px;
+  width: 300px;
+  margin-left: 370px;
+  margin-right: 50px;
+  border-radius: 10px;
+  font-family: 'Inconsolata', monospace;
+}
