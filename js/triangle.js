@@ -1,4 +1,3 @@
-
 var sideSum1 = function(firstvalue, secondvalue) {
     return firstvalue + secondvalue;
    };
@@ -18,19 +17,24 @@ var sideSum1 = function(firstvalue, secondvalue) {
     var text;
      if(sideSum1(firstvalue,secondvalue) <= thirdvalue || sideSum2(secondvalue,thirdvalue) <= firstvalue || sideSum3(firstvalue,thirdvalue) <= secondvalue){
         text="it is not a triangle"
+        document.getElementById("img").src= "images/not.png"
     }
     else if(firstvalue === secondvalue && secondvalue === thirdvalue){
         text = array[0];
+         document.getElementById("img").src= "images/equ.jpg"
     }
      //Equivalent Triangle
 
     else if(firstvalue===secondvalue || firstvalue===thirdvalue || secondvalue===thirdvalue) {
         text=array[1];
+        document.getElementById("img").src= "images/isoseles.jpg"
     }
     //Isoscele Triangle
     else if(firstvalue!==secondvalue && firstvalue!==thirdvalue &&secondvalue!==thirdvalue){
         text=array[2];
+        document.getElementById("img").src= "images/sca.png"
     }
     //Scalene Triangle
-    document.getElementById('Result').innerHTML = text;
+
+    document.getElementById('results').innerHTML = text;
   }

@@ -1,60 +1,52 @@
 body{
-  background-image: url('../images/bg2.jpg');
-  background-size: cover;
-  height: 480px;
-  width: 700px;
-  font-family: 'Inconsolata', monospace;
+    background-image: url('../images/bg4.jpg');
 }
 h1{
-  margin-left: 350px;
-  text-align: center;
+    text-align: center;
+
 }
-.triform{
-  background-color: blue;
-  height: 420px;
-  width: 300px;
-  margin-left: 370px;
-  margin-right: 50px;
-  border-radius: 10px;
-  font-family: 'Inconsolata', monospace;
+div{
+    color:black;
+    text-align: center;
+}
+#form{
+    background-color:white;
+    margin: 20px;
+    width: 200px;
+    padding: 100px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border: 1px solid gray;
+    border-radius: 2px;
+
+}
+button{
+    color: blue;
+    padding: 12px 28px;
+}
+.flo{
   float: left;
+}
+#results{
+    color:black;
+}
+input{
+    padding: 8px 10px;
+}gn: center;
+    margin-top: 10%;
+}
+div{
+    color:black;
+    text-align: center;
+}
+button{
+    color: blue;
+    padding: 12px 28px;
 
 }
-.tra{
-  padding-left: 40px;
-  padding-top: 40px;
-  font-size: 30px;
-  font-family: 'Inconsolata', monospace;
-
-
+#results{
+    color:black;
 }
-.inp{
-  margin: 20px;
-  font-size: 20px;
-  font-family: 'Inconsolata', monospace;
-  border: none;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: coral;
-
-
-}
-.inpt{
-    margin: 10px;
-    background-image: url('../images/bg.jpg');
-    border-radius: 10px;
-    font-size: 20px;
-    width: 100px;
-    font-family: 'Inconsolata', monospace;
-    float: left;
-
-}
-.answer{
-  background-color: blue;
-  height: 420px;
-  width: 300px;
-  margin-left: 370px;
-  margin-right: 50px;
-  border-radius: 10px;
-  font-family: 'Inconsolata', monospace;
+input{
+    padding: 8px 10px;
 }
