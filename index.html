@@ -1,32 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Triangle Tracker</title>
-    <script src="js/triangle.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-  </head>
-  <body>
-<div class="tri">
-  <h1>Triangle Tracker</h1>
-  <div class="triform">
-    <form class="tra">
-      Side 1<input type="text" name="firstvalue" class="inp" placeholder="Enter 1st Number" id="one">
-      Side 2<input type="text" name="secondvalue" class="inp" placeholder="Enter 2nd Number" id="two">
-      Side 3<input type="text" name="thirdvalue" class="inp" placeholder="Enter 3rd Number" id="three">
-      <!-- <button type="button" name="button" class="inpt">Check</button> -->
-        <button onclick="check()" class="inpt">CHECK</button>
-      <button type="reset" value="Reset" class="inpt">Reset</button>
-      <P id="Result"></P>
-    </form>
-    <div class="answer">
-      56546546
-
-    </div>
-  </div>
-</div>
-
-
-  </body>
+<html>
+    <head>
+        <title>Triangle-tracker</title>
+        <script src="js/triangle.js"></script>
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>TRIANGLE-TRACKER</h1>
+        <div id="form">
+            <strong>First value:</strong><br>
+            <input type="text" placeholder="Enter first value" name="firstvalue" id="one">
+            <br>
+            <strong>Second value:</strong><br>
+            <input type="text" placeholder="Enter second value" name="secondvalue" id="two">
+            <br>
+            <strong>Third value</strong><br>
+            <input type="text" placeholder="Enter third value" name="thirdvalue" id="three">
+            <br><br>
+            <button onclick="check()" class="flo">Confirm</button>
+            <button type="reset" name="reset" class="flo">Reset</button>
+            <P id="results"></P>
+              <img id="img" src="" alt="" width="200px" height="200px">
+        </div>
+    </body>
 </html>
