@@ -15,3 +15,7 @@ var sideSum1 = function(firstvalue, secondvalue) {
     var secondvalue=document.getElementById('two').value;
     var thirdvalue=document.getElementById('three').value;
     var text;
+    if(sideSum1(firstvalue,secondvalue) <= thirdvalue || sideSum2(secondvalue,thirdvalue) <= firstvalue || sideSum3(firstvalue,thirdvalue) <= secondvalue){
+        text="It is not a triangle!"
+        document.getElementById("img").src= "images/not.png"
+    }
