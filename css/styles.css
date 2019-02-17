@@ -32,3 +32,21 @@ input[type=submit] {
   height: 40px;
   margin: 15px;
 }
+input[type=reset] {
+  background-color: #095F8A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  width: 150px;
+  border-radius: 5px;
+  height: 40px;
+  margin: 15px;
+
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+input[type=reset]:hover {
+  background-color: red;
+}
