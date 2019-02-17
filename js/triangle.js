@@ -9,3 +9,9 @@ var sideSum1 = function(firstvalue, secondvalue) {
    var sideSum3 = function(firstvalue, thirdvalue) {
     return firstvalue + thirdvalue;
    };
+   function triger(){
+    var array=['Its an Equilateral Triangle','Its an Isoscele Triangle','Its a Scalene Triangle']
+    var firstvalue=document.getElementById('one').value;
+    var secondvalue=document.getElementById('two').value;
+    var thirdvalue=document.getElementById('three').value;
+    var text;
