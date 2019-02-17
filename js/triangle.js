@@ -24,3 +24,8 @@ var sideSum1 = function(firstvalue, secondvalue) {
          document.getElementById("img").src= "images/equ.jpg"
     }
      //Equivalent Triangle
+     else if(firstvalue===secondvalue || firstvalue===thirdvalue || secondvalue===thirdvalue) {
+         text=array[1];
+         document.getElementById("img").src= "images/isoseles.jpg"
+     }
+     //Isoscele Triangle
