@@ -19,3 +19,8 @@ var sideSum1 = function(firstvalue, secondvalue) {
         text="It is not a triangle!"
         document.getElementById("img").src= "images/not.png"
     }
+    else if(firstvalue === secondvalue && secondvalue === thirdvalue){
+        text = array[0];
+         document.getElementById("img").src= "images/equ.jpg"
+    }
+     //Equivalent Triangle
