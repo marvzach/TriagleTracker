@@ -13,7 +13,7 @@ HTML,CSS and Javascript
     1. Its really simple just find my repository in github or simply type this url in your browser https://marvzach.github.io/TriagleTracker
     2. Secondly Navigate through the Application and basically input 3 values that is the sides of the triangle,depending on the users values.
     3. Finally click confirm to process.
-    4. Results would be displayed.
+    4. Results would be displayed on the same form.
 
 ## Live Link
 https://marvzach.github.io/TriagleTracker
