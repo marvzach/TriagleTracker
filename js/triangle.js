@@ -29,3 +29,11 @@ var sideSum1 = function(firstvalue, secondvalue) {
          document.getElementById("img").src= "images/isoseles.jpg"
      }
      //Isoscele Triangle
+     else if(firstvalue!==secondvalue && firstvalue!==thirdvalue &&secondvalue!==thirdvalue){
+             text=array[2];
+             document.getElementById("img").src= "images/sca.png"
+         }
+         //Scalene Triangle
+
+         document.getElementById('results').innerHTML = text;
+       }
