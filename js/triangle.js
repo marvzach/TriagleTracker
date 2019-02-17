@@ -35,4 +35,5 @@ var sideSum1 = function(firstvalue, secondvalue) {
          }
          //Scalene Triangle
 
-         
+         document.getElementById('results').innerHTML = text;
+       }
