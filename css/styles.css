@@ -2,3 +2,14 @@ body{
 background-image: url('../images/bg1.jpg');
 background-size: cover;
 }
+#form{
+   background-image: url('../images/lo.jpg');
+    width: 390px;
+    height: 640px;
+    margin-left: 430px;
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+    z-index: 2;
+    border-radius: 5px;
+}
