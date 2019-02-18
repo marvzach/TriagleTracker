@@ -1,20 +1,20 @@
 body{
-background-image: url('../images/bg1.jpg');
-background-size: cover;
-font-family: 'Noto Sans KR', sans-serif;
+  background-image: url('../images/bg1.jpg');
+  background-size: cover;
+  font-family: 'Noto Sans KR', sans-serif;
 
 }
 #form{
-   background-image: url('../images/lo.jpg');
-    width: 390px;
-    height: 640px;
-    margin-left: 430px;
-    margin-top: 0px;
-    padding: 0px;
-    position: relative;
-    z-index: 2;
-    border-radius: 5px;
-    font-family: 'Noto Sans KR', sans-serif;
+  background-image: url('../images/lo.jpg');
+  width: 390px;
+  height: 640px;
+  margin-left: 430px;
+  margin-top: 0px;
+  padding: 0px;
+  position: relative;
+  z-index: 2;
+  border-radius: 5px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 input[type=text] {
   width: 50%;
@@ -55,7 +55,7 @@ input[type=reset]:hover {
   background-color: red;
 }
 .container{
-width: 700px;
+  width: 700px;
 }
 h1{
   color: blue;
@@ -84,7 +84,7 @@ input:focus{
 }
 .answer{
   margin-top:390px;
-  margin-left: 100px;
+  margin-left: 90px;
   font-family: 'Noto Sans KR', sans-serif;
 }
 #img{
@@ -92,6 +92,6 @@ input:focus{
 }
 #results{
   color:blue;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Noto Sans KR', sans-serif;
 }
