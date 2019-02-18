@@ -1,6 +1,8 @@
 body{
 background-image: url('../images/bg1.jpg');
 background-size: cover;
+font-family: 'Ubuntu', sans-serif;
+
 }
 #form{
    background-image: url('../images/lo.jpg');
