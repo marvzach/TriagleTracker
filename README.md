@@ -7,8 +7,17 @@ TriagleTracker
 ## Authors
 Marvin Zachary  
 @marvin Ayieko(https://www.facebook.com/zayieko)
+### Behavior Driven Development (Specifications)
+| Behavior                 |           Input      |                 Output|
+| :----------------------- |:---------------------| :---------------------|              
+| All values match         |       [5,5,5]     |            equilateral|
+| Two values match         |       [5,5,4]     |           isoceles    |
+| No values match          |       [5,4,3]        |           scalene     |
+| Sum of 2 values<= third value   |       [5,4,11]       |           no triangle |
+| Data type !== number     |      ["number", null]|          enter value! |
 ## Technologies Used
-HTML,CSS and Javascript
+    1.HTML.
+    2.CSS and Javascript
 ## Setup instructions
     1. Its really simple just find my repository in github or simply type this url in your browser https://marvzach.github.io/TriagleTracker
     2. Secondly Navigate through the Application and basically input 3 values that is the sides of the triangle,depending on the users values.

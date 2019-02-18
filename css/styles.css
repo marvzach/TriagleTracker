@@ -1,7 +1,7 @@
 body{
 background-image: url('../images/bg1.jpg');
 background-size: cover;
-font-family: 'Ubuntu', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
 
 }
 #form{
@@ -14,6 +14,7 @@ font-family: 'Ubuntu', sans-serif;
     position: relative;
     z-index: 2;
     border-radius: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 input[type=text] {
   width: 50%;
@@ -23,6 +24,7 @@ input[type=text] {
   margin-bottom: 16px;
   margin-left: 60px;
   width: 220px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 input[type=submit] {
   background-color: #098A82;
@@ -33,6 +35,7 @@ input[type=submit] {
   border-radius: 5px;
   height: 40px;
   margin: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 input[type=reset] {
   background-color: #095F8A;
@@ -43,6 +46,7 @@ input[type=reset] {
   border-radius: 5px;
   height: 40px;
   margin: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 input[type=submit]:hover {
   background-color: red;
@@ -68,6 +72,7 @@ input{
   color: white;
   transition-duration: 0.25s;
   font-weight: 300;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 input:hover {
   background-color: rgba(255, 255, 255, 0.4);
@@ -80,6 +85,7 @@ input:focus{
 .answer{
   margin-top:390px;
   margin-left: 100px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 #img{
   border-radius: 20px;
@@ -87,4 +93,5 @@ input:focus{
 #results{
   color:blue;
   font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
