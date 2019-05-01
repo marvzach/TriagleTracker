@@ -1,5 +1,5 @@
 # Project Name
-TriagleTracker
+Triangle Tracker
 ## Description
     1. This is a Web Application project that tracks triangles.
     2. It basically displays the type of triangle, Based on the 3 input values, that is the threes sides of a triangle.
@@ -26,7 +26,7 @@ Marvin Zachary
     4. Results would be displayed on the same form.
 
 ## Live Link
-https://marvzach.github.io/TriagleTracker
+https://marvzach.github.io/TriangleTracker
 ## CONTACTS
     1. acerzach@gmail.com
     2. +(254)716-240-746
